@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title> Hotel Green Ghana - Book a Room</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to Hotel Green Ghana .. Spintex Road Accra, GHana .. 15 minutes drive from airport.. Serene environment for your  stay" />
+    <meta name="keywords" content=" hotels in ghana , best hotels in ghana , affordable hotel in accra, accomodation in accra, tourist hotel in ghana, best hotel in Accra, cheapest hotel in accra, nice hotels in ghana, hotel green ghana, green hotel, hotel green ghana, hotels with swimming pool, hotels in accra ghana " />
+    <meta http-equiv="author" content="Kojo" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/booking.css">
+    <!-- date picker -->
+    <link rel="stylesheet" href="css/datepicker.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/bootstrap-datepicker.js"></script>
+
+  </head>
+<body>
+    <div class="container-fluid start-up">
+    	<div class="container top-info">
+    <div class="col-md-4 col-sm-4 col-xs-12 top-info-p1">
+    	<p class="ion-ios-telephone"> &nbsp; +233 30 393 2517 &nbsp; <p class="ion-social-whatsapp">&nbsp;+233 50 528 4411</p> </p>
+    		</div>
+    		<div class="col-md-4 col-sm-4 col-xs-12 top-info-p2">
+    	<p > Email : reservations@hotelgreenghana.com</p>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12 social-media">
+		<a href="https://www.facebook.com/officialhotelgreenghana"><i class="ion-social-facebook"></i> </a>
+      </div>
+  </div>
+</div>
+        <!-- Static navbar -->
+      <nav class="navbar navbar-default ">
+          <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"><a href=""></a></span>
+              <span class="icon-bar"><a href=""></a></span>
+              <span class="icon-bar"><a href=""></a></span>
+            </button>
+            <a href="index.html"><img src="images/logo.png" height="50px" style="margin-top:10px" alt="alive estate logo"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html" class="link-white">Home</a></li>
+              <li><a href="rooms.html" class="link-white">Rooms</a></li>
+              <li><a href="services.html" class="link-white">Services</a></li>
+              <li><a href="gallery.html" class="link-white">Gallery</a></li>
+              <li><a href="contact.html" class="link-white">Contact</a></li>              
+              <li><a href="booking.html" class="reservation">Booking</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+  <!-- booking and welcome column -->
+ 
+  
+<!-- this is the BIG WELCOME TO HOTEL GREEN -->
+<div class="container-fluid big-writing">
+    <div class="container inside-big-writing">
+      <h1> Booking </h1>
+    </div>
+  </div>
+
+<div class="container-fluid booking">
+<div class="container">
+<form name="reservations" method="Post" action="reservations.php" onSubmit="return validate();">
+
+<span>Name :</span><input type="edit" name="Name___1" value="" size="20" class="padding-form" placeholder="Name" >
+
+<br/><br/><span>Email Address:</span><input type="password" name="Email_Address__2" value="" size="20" class="padding-form" placeholder="E-Mail Address">
+
+<br/><br/><span>Phone Number:</span><input type="edit" name="Phone_Number__3" value="" size="20" class="padding-form" placeholder="Phone Number">
+
+<br/><br/><span>Check In Date:</span><input type="edit" name="Check_In_Date__4" value="" size="20" class="padding-form" placeholder="Check-In Date">
+
+<br/><br/><span>Check Out Date:</span><input type="edit" name="Check_Out_Date__5" value="" size="20" class="padding-form" placeholder="Check-Out Date">
+
+<br/><br/><span>Number of Adults:</span><select name="Number_of_Adults__6" class="padding-form" placeholder="Number of Adults"><option value="1" selected>1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+
+<br/><br/><span>Number of Children:</span><select name="Number_of_Children__7" class="padding-form" placeholder="Number of Children"><option value="none" selected>none</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+
+<br/><br/><span>Members in Group:</span><select name="Members_of_Group__8" class="padding-form" placeholder="Members in Group"><option value="none" selected>none</option>
+<option value="0-5   MEMBERS">0-5   MEMBERS</option>
+<option value="5-10  MEMBERS">5-10  MEMBERS</option>
+<option value="10-15 MEMBERS">10-15 MEMBERS</option>
+<option value="15-20 MEMBERS">15-20 MEMBERS</option>
+<option value="20-25 MEMBERS">20-25 MEMBERS</option>
+<option value="25+ MEMBERS">25+ MEMBERS</option>
+<option value=""></option>
+</select>
+
+<br/><br/><span>Preferred Room: </span> <br/>
+<select name="Preferred_Room__9" class="padding-form" placeholder="Preferred Room"><option value="Standard Room" selected>Standard Room</option> 
+<option value="Executive Room">Executive Room</option>
+</select><br/><br/><br/>
+
+<p style="font-style:oblique ; padding-left:2% ; color:gray"> * You can provide us with additional information about your flight if you are booking outside Ghana</p>
+<textarea name="___10" cols="30" rows="4" class="padding-form" placeholder="Arrival Date , Flight Information blah blah blah"></textarea>
+
+<input type="submit" name="Submit" class="btn1" value="Submit">
+
+<br/><br/><br/><br/><br/><br/>
+
+<!-- javascript-->
+
+<script language="Javascript">
+function validate(){
+var allok = true;
+  if(reservations.Name___1.value == ""){
+    alert('Invalid input for Name ');
+    return false;
+  }
+  if(isNaN(reservations.Phone_Number__3.value)){
+    alert('Invalid input for Telephone No., this must be a number with no hyphens or space')
+    return false;
+  }
+  if(reservations.Check_In_Date__4.value == ""){
+    alert('Invalid input for Check In Date');
+    return false;
+  }
+  if(reservations.Check_Out_Date__5.value == ""){
+    alert('Invalid input for Check Out Date');
+    return false;
+  }
+document.reservations.Submit.disabled="disabled";
+return true;
+}
+</script>
+
+<!-- javascript end -->
+
+</form>
+</div>
+</div>
+
+
+
+
+           <div class="container-fluid footer">
+            <div class="container   inside-footer">
+            <div class="col-md-4">
+              <h1> Contact </h1>
+        <i class="ion-ios-telephone">  +233 30 393 2517</i> <br/>
+         <i class="ion-social-whatsapp">  +233 50 528 4411</i> <br/>
+        <i class="ion-email">   reservations@hotelgreenghana.com</i> <br/>
+        <i class="ion-android-mail">  P.O. Box 1599</i><br/>
+        <i class="ion-ios-location">  Off Spintex Road, Close to Manet Estate, </i>
+      </div>
+      <div class="col-md-4 ">
+        <h1> Links </h1>
+        <a href="index.html" class="down-link"> Home </a> <br/>
+        <a href="rooms.html" class="down-link"> Rooms </a> <br/>
+        <a href="services.html" class="down-link"> Services </a> <br/>
+        <a href="gallery.html" class="down-link"> Gallery </a> <br/>
+        <a href="contact.html" class="down-link"> Contact </a> <br/>
+        <a href="booking.html" class="down-link"> Reservation </a> <br/>      
+      </div>
+      <div class="col-md-4 iframe">
+        <h1> Map View </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.6350500688673!2d-0.12225208471256412!3d5.620779595925272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf84ee9e01bcf9%3A0x17756d39d6828144!2sHotel+Green!5e0!3m2!1sen!2sus!4v1528882147661" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid beneath-footer">
+      <div class="container inside-beneath-footer">
+        <p> &#9400; 2019 Site By Jef </p>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+  </body>
+</html>
+

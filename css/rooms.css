@@ -1,0 +1,467 @@
+@font-face {
+	font-family: "Rubik-Bold";
+	src: url(../fonts/rubik/Rubik-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Rubik-Regular" ;
+	src: url(../fonts/rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Rubik-Light" ;
+	src: url(../fonts/rubik/Rubik-Light.ttf);
+}
+
+body  {
+    height: 100%;
+    background-color: ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/bg.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+.start-up {
+	padding: 0;
+	border: 0;
+	margin: 0;	
+    background: hsla(120, 100%, 50%, 0.3);
+}
+
+.top-info {
+	border: none;
+	padding: .5% .5%;
+	margin-bottom: .5%;
+}
+
+.top-info p{
+	display: inline;
+	color: white;
+	font-size: 115%;
+	font-family: "Rubik-Regular", helvetica ;
+}
+
+.top-info i{
+	float: right;
+}
+.ion-social-facebook ,.ion-social-twitter, .ion-social-youtube {
+	color: white;
+	font-size: 150%;
+	padding-top: .2%;
+	padding-right: 1.9%;
+}
+.top-info {
+	background-color: ;
+}
+.top-info-p1 {
+	background-color: ;
+	padding-top: .5%;
+}
+.top-info-p2 {
+	background-color: ;
+	padding-top: .5%;
+	text-align: center;
+}
+.navbar-default {
+	background-color: transparent;
+	border-radius: 0;
+	width: 100%;
+	border: none;
+	
+}
+.navbar-default a:link {
+	font-family: "Rubik-Light", helvetica !important;
+	font-size: 120%;	
+	color: white !important;
+}
+.navbar-default a:hover {
+	text-decoration: none;
+}
+.big-writing {
+	background-color:  ;
+	font-family: "Rubik-Light", helvetica !important;
+	color: gray;
+	margin-top: 3%;
+}
+.big-writing h1{
+	background-color: white;
+	display: inline;
+	margin-top: 5%;
+	padding: .5% 1% .5% 1%;
+}
+.rooms2 {
+	background-color: white !important;
+}
+.rooms {
+	margin-top: 5%;
+	background-color: #f1f1f1 ;
+}
+
+.rooms-down {
+	margin-top: ;
+	background-color: #f1f1f1 ;
+}
+
+.rooms p , .rooms2 p{
+	margin-top: 5%;
+	font-family: "Rubik-Light", helvetica !important;
+}
+.inside-rooms , .inside-rooms2 {
+	background-color: white;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.inside-rooms2 {
+	background-color: #f1f1f1;
+}
+.writing-place , .writing-place2{
+	background-color: white;
+	border: 0;
+}
+.writing-place2 {
+	background-color: #f1f1f1 !important;
+}
+.writing-place h1 , .writing-place2 h1{
+	margin-top: 5%;'
+	margin-bottom: 5%;
+	font-family: "Rubik-Light", helvetica !important;
+}
+.writing-place h2 , .writing-place2 h2{
+	font-family: "Rubik-Light", helvetica !important;
+}
+.writing-place2 a:link, .writing-place a:link {
+	float: right;
+	padding: 3%;
+	background-color: gray;
+}
+.green2 {
+
+}
+.writing-place2 a:link, .writing-place a:link{
+	float: right;
+	background-color: black;
+	font-family: "Rubik-Light", helvetica !important;
+	color: white;
+	text-transform: uppercase;
+	font-size: 120%;
+	margin-bottom: 2%; 	
+}
+.writing-place2 a:hover, .writing-place a:hover{
+	text-decoration: none;
+	font-size: 120%;
+	font-family: "Rubik-Light", helvetica !important;
+}
+.price-book2 , .price-book{
+	background-color: #f1f1f1;
+	padding-top: 2%;
+}
+.price-book2 {
+	background-color: white !important;	
+}
+.writing-place2 p , .writing-place p{
+	font-size: 120%;
+	font-family: "Rubik-Light", helvetica !important;
+	margin-bottom: 4%;	
+}
+.green , .green2{
+	position: relative;
+	top: 10px ;
+	font-size: 200%;
+	font-family: "Rubik-Light", helvetica !important;	
+	
+}
+.picture-place {
+	background-color: white;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.picture-place img{
+
+}
+
+.testimonial {
+	padding-bottom: 3%;
+	padding-top: 3%;
+	background: #f1f1f1;
+}
+.coat {
+	text-align: center;
+	font-size: 300%;
+	font-family: "Rubik-Regular", helvetica !important;
+}
+
+.testimonial img{
+	position: relative;
+	top: -30px;
+	color: green;
+	margin: 0 auto;
+}
+.inside-testimonial h1{
+	border-bottom: 1px solid gray;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: "Rubik-Regular", helvetica !important;
+}
+.inside-testimonial p{
+	text-align: center;
+	font-family: "Rubik-Light", helvetica !important;
+	font-size: 120%;	
+}
+.affiliates {
+	padding: 2% 2%;
+	background: white;
+}
+.affiliates img {
+	margin: 0 auto;
+	display: block;
+}
+.brand-1 {
+	padding-top: 4%;
+	background: ;
+}
+.brand-2{
+	background: ;
+}
+.brand-3{
+	background: ;
+}
+.footer {
+	background-color: #408211;
+}
+.inside-footer {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.inside-footer h1{
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc;
+	font-size: 300%;
+	margin-bottom: 10%;
+}
+.inside-footer i{
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc;
+	font-size: 120%;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+.ion-ios-telephone , .ion-email, .ion-android-mail ,.ion-ios-location {
+	font-size: 120%;
+	font-style: normal;
+}
+iframe {
+	position: relative;
+	top: -15px;
+	height: 100%;
+	width: 100%;
+}
+
+.beneath-footer {
+	color: white;
+	font-size: 120%;
+	font-family: "Rubik-Regular", helvetica !important;
+	text-align: center;
+	background: #33680d;
+	margin-top: ;
+}
+.inside-beneath-footer {
+	padding-top: 1%;
+}
+.link-white {
+	color: white !important;
+}
+.reservation {
+	color: black !important;
+	background-color: yellow;
+	padding: 0%;
+}
+.reservation:hover {
+	background-color: yellow !important	;
+}
+.testi {
+	color: green;
+}
+.down-link {
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc !important;
+	font-size: 120%;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+.down-link:hover {
+	text-decoration: none;
+}
+
+.white-white {
+	color: white !important;
+	transition: 1s background;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+.book {
+	float: right;
+	margin-top: 18%;
+}
+.welcome {
+	float: left;
+}
+.welcome-beneath {
+	padding-top: 8%;
+}
+
+.top-info p{
+	display: inline;
+	color: white;
+	font-size: 115%;
+	font-family: "Rubik-Regular", helvetica ;
+	float: left;
+}
+
+.top-info i{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

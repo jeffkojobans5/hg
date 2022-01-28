@@ -1,0 +1,538 @@
+@font-face {
+	font-family: "Rubik-Bold";
+	src: url(../fonts/rubik/Rubik-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Rubik-Regular" ;
+	src: url(../fonts/rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Rubik-Light" ;
+	src: url(../fonts/rubik/Rubik-Light.ttf);
+}
+
+body  {
+    height: 100%;
+    background: rgb(48,50,55);
+   background: linear-gradient(90deg, rgba(48,50,55,1) 0%, rgba(23,226,50,1) 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/hotelgreen-homepgae-min.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+.start-up {
+	padding: 0;
+	border: 0;
+	margin: 0;	
+    background: hsla(120, 100%, 50%, 0.3);
+}
+
+.top-info {
+	border: none;
+	padding: .5% .5%;
+	margin-bottom: .5%;
+}
+
+.top-info p{
+	display: inline;
+	color: white;
+	font-size: 115%;
+	font-family: "Rubik-Regular", helvetica ;
+}
+
+.top-info i{
+	float: right;
+}
+.ion-social-facebook ,.ion-social-twitter, .ion-social-youtube {
+	color: white;
+	font-size: 150%;
+	padding-top: .2%;
+	padding-right: 1.9%;
+}
+.top-info {
+	background-color: ;
+}
+.top-info-p1 {
+	background-color: ;
+	padding-top: .5%;
+}
+.top-info-p2 {
+	background-color: ;
+	padding-top: .5%;
+	text-align: center;
+}
+.navbar-default {
+	background-color: transparent;
+	border-radius: 0;
+	width: 100%;
+	border: none;
+	
+}
+.navbar-default a:link {
+	font-family: "Rubik-Light", helvetica !important;
+	font-size: 120%;	
+	color: white !important;
+}
+.navbar-default a:hover {
+	text-decoration: none;
+}
+.book-and-welcome {
+	margin-top:15%;
+
+}
+.book {
+	margin-top: 2%;
+    background: hsla(120, 100%, 50%, 0.4);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    float: left;
+}
+.book h1{
+	font-family: "Rubik-Bold", helvetica !important;
+	font-weight: bold;	
+	color: white;
+	font-size: 180%;
+}
+.book p{
+	font-family: "Rubik-Light", helvetica !important;
+	color: white;
+	font-size: 120%;
+	padding-bottom: 4%;
+}
+
+input[type="text"] {
+    background: white;
+    color:  black;
+	border: none;
+	width: 100%;
+	padding: 4%;
+	margin-top: 7%;
+	font-family: "Rubik-Light", helvetica !important;
+}
+.button {
+	position: relative;
+	display: block;
+	text-align: center;
+    background:yellow;
+    color: black;
+	border: none;
+	width: 100% !important;
+	padding: 4%;
+	margin-top: 7%;
+	font-size: 120%;
+	font-family: "Rubik-Bold", helvetica !important;}
+}
+.button:hover {
+	color: white !important;
+}
+.book a:hover {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: black;
+  	font-size: 120%;
+	font-weight: bold;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  	color: black;
+	font-size: 120%;
+
+	font-weight: bold;}
+:-ms-input-placeholder { /* IE 10+ */
+  	color: black;
+	font-size: 120%;
+	font-weight: bold;
+}
+:-moz-placeholder { /* Firefox 18- */
+  	color: black;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.select-booking {
+    background:;
+	margin-top: 7%;
+	height: 70%;
+	width: 100%;
+	border: 0;
+	color: black;
+	padding: 4%;
+	font-size: 120%;
+}
+.welcome {
+	margin-top: -1px;
+	float: right;
+}
+.welcome h1{
+	color: white ;
+	font-family: "Rubik-Regular", helvetica !important;
+	font-size: 400%;
+}
+.welcome a:link{
+	color: green !important;
+	font-weight: bold;
+}
+.welcome-beneath {
+	background: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.welcome-beneath p{
+	color: black;
+	font-size: 120%;
+	font-family: "Rubik-Light", helvetica !important;
+	text-align: justify;
+}
+.typewrite {
+	color: yellow;
+	background-color: ;
+}
+.list-of-rooms {
+	background-color: #f1f1f1;
+	padding-bottom: 5%;
+}
+.inside-list-of-rooms h1{
+	text-align: center;
+	font-family: "Rubik-Regular", helvetica !important;
+	padding-bottom: 3%;
+	padding-top: 2%; 
+}
+.list-of-rooms a{
+	float: right;
+	background-color: ;
+}
+.list-of-rooms p{
+	float: left;
+}
+.thumbnail {
+	padding: 0;
+	border-radius: 0;
+	box-shadow: 1px red;
+	-webkit-box-shadow: 3px 7px 47px 9px rgba(163,128,158,0.32);
+	-moz-box-shadow: 3px 7px 47px 9px rgba(163,128,158,0.32);
+	box-shadow: 3px 7px 47px 9px rgba(163,128,158,0.32);
+}
+.caption {
+	margin: 1% 1% 2% 1%;
+	font-size: 150%;
+	background-color: ;
+	font-family: "Rubik-Regular", helvetica !important;
+	color: gray !important;
+	text-transform: uppercase;
+
+}
+.green {
+	color: #33680d;
+	font-size: 150%;
+}
+.night {
+	color: gray;
+	font-size: 70%;
+}
+.caption a:link {
+	color: white !important;
+	background-color: #33680d;
+	padding: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+.white-white {
+	color: white !important;
+	transition: 1s background;
+}
+
+.caption a:hover {
+	text-decoration: none;
+}
+
+.services {
+	background: white;
+	padding-top: 1%;
+}
+.inside-services {
+	margin-bottom: 5%;
+}
+.inside-services h1 {
+	text-align: center;
+	margin-bottom: 2%;
+	padding: 2%;
+	font-family: "Rubik-Regular", helvetica !important;
+}
+.inside-services p{
+	position: absolute;
+	top: 60px;
+	text-align:center;
+	color: white;
+	font-family: "Rubik-Regular", helvetica !important;
+	font-size: 130%;
+	text-transform: uppercase;
+	background-color: ;
+	padding: 3%;
+	margin: 0 auto;
+	background-color: rgba(64,130,17, 0.8);
+}
+.testimonial {
+	padding-bottom: 3%;
+	padding-top: 3%;
+	background: #f1f1f1;
+}
+.coat {
+	text-align: center;
+	font-size: 300%;
+	font-family: "Rubik-Regular", helvetica !important;
+}
+
+.testimonial img{
+	position: relative;
+	top: -30px;
+	color: green;
+	margin: 0 auto;
+}
+.inside-testimonial h1{
+	border-bottom: 1px solid gray;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: "Rubik-Regular", helvetica !important;
+}
+.inside-testimonial p{
+	text-align: center;
+	font-family: "Rubik-Light", helvetica !important;
+	font-size: 120%;	
+}
+.affiliates {
+	padding: 2% 2%;
+	background: white;
+}
+.affiliates img {
+	margin: 0 auto;
+	display: block;
+}
+.brand-1 {
+	padding-top: 4%;
+	background: ;
+}
+.brand-2{
+	background: ;
+}
+.brand-3{
+	background: ;
+}
+.footer {
+	background-color: #408211;
+}
+.inside-footer {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.inside-footer h1{
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc;
+	font-size: 300%;
+	margin-bottom: 10%;
+}
+.inside-footer i{
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc;
+	font-size: 120%;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+.ion-ios-telephone , .ion-email, .ion-android-mail ,.ion-ios-location {
+	font-size: 120%;
+	font-style: normal;
+}
+iframe {
+	position: relative;
+	top: -15px;
+	height: 100%;
+	width: 100%;
+}
+
+.beneath-footer {
+	color: white;
+	font-size: 120%;
+	font-family: "Rubik-Regular", helvetica !important;
+	text-align: center;
+	background: #33680d;
+	margin-top: ;
+}
+.inside-beneath-footer {
+	padding-top: 1%;
+}
+.link-white {
+	color: white !important;
+}
+.reservation {
+	color: black !important;
+	background-color: yellow;
+	padding: 0%;
+}
+.reservation:hover {
+	background-color: yellow !important	;
+}
+.testi {
+	color: green;
+}
+.down-link {
+	font-family: "Rubik-Regular", helvetica !important;
+	color: #ccffcc !important;
+	font-size: 120%;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+.down-link:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+.book {
+	float: right;
+	margin-top: 18%;
+}
+.welcome {
+	float: left;
+}
+.welcome-beneath {
+	padding-top: 8%;
+}
+
+.top-info p{
+	display: inline;
+	color: white;
+	font-size: 115%;
+	font-family: "Rubik-Regular", helvetica ;
+	float: left;
+}
+
+.top-info i{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
